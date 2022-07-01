@@ -11,7 +11,7 @@ import (
 
 var Cmd = &cobra.Command{
 	Use:     "keygen",
-	Short:   "Genetate SSH private key",
+	Short:   "Generate SSH private key",
 	Aliases: []string{"gen", "g", "key", "keygen"},
 	Args:    cobra.NoArgs,
 	Run: func(c *cobra.Command, args []string) {
